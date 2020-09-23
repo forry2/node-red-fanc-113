@@ -2,7 +2,14 @@
     "name": "node-red-fanc-raspy113",
     "description": "Node-RED Fanc",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-alexa-home-skill": "0.1.17",
+        "node-red-contrib-alexa-remote2": "3.10.4",
+        "node-red-contrib-telegrambot": "8.6.4",
+        "node-red-contrib-http-proxy": "1.0.0",
+        "node-red-dashboard": "2.23.3",
+        "node-red-node-base64": "0.2.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_raspberrypi.json",
